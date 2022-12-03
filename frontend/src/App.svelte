@@ -3,8 +3,8 @@
   import {Greet} from '../wailsjs/go/main/App.js'
   import {GetCatFact} from '../wailsjs/go/main/App.js'
 
-
-  let resultText = "Please enter your name below 👇"
+  let instructionText = "Click the button for an Awesome cat fact 👇" 
+  let resultText = ""
   let name
   let catText = ""
 
@@ -16,6 +16,7 @@
 
 <main>
   <!-- <img alt="Wails logo" id="logo" src="{logo}"> -->
+  <div class="result" id="instr">{instructionText}</div>
   <div class="result" id="result">{resultText}</div>
   <div class="input-box" id="input">
     <!-- <input autocomplete="off" bind:value={name} class="input" id="name" type="text"/> -->
