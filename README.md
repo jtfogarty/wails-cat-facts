@@ -1,4 +1,7 @@
-# README
+# Wails Cat Facts
+
+Created by `wails init -n wails-svelte-01 -t svelte` and then renaming. 
+I also used https://github.com/NerdCademyDev/golang/blob/main/12_json_to_struct/main.go for insparation.  
 
 ## About
 
