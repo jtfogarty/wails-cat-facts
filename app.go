@@ -37,7 +37,6 @@ func (a *App) Greet(name string) string {
 }
 
 func getJson(url string, target interface{}) error {
-	fmt.Sprintf("I am on number: %s\n", 1)
 	resp, err := client.Get(url)
 	if err != nil {
 		return err
